@@ -18,17 +18,62 @@ body {
   margin: 220px auto;
   border-radius: 20px;
   background-color: hsl(0, 0%, 100%);
+  box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.90);
 }
 
 .blog-image {
   width: 336px;
   height: 200px;
   border-radius: 10px;
-  margin: 24px;
+  margin: 24px 24px 0 24px;
 }
 
 .wrapper {
   margin: 24px;
+}
+
+.tag {
+  font-size: 14px;
+  font-weight: 700;
+  background-color: hsl(47, 88%, 63%);
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 4px;
+}
+
+.date {
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+.title {
+  margin-top: 16px;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.description {
+  margin-top: 16px;
+  font-weight: 380;
+  color: hsl(0, 0%, 50%);
+  line-height: 1.5;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  margin-top: 24px;
+  width: 32px;
+
+}
+
+.name {
+  margin-top: 24px;
+  margin-left: 12px;
+  font-size: 14px;
 }
 
 .attribution {
