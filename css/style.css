@@ -19,17 +19,36 @@ body {
   border-radius: 20px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.90);
+
+  @media only screen and (max-width: 440px) {
+    width: 327px;
+    height: 501px;
+  }
 }
 
 .blog-image {
   width: 336px;
   height: 200px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 24px 24px 0 24px;
+  background-image: url(../assets/images/illustration-article.svg);
+  background-size: cover;
+  background-position: center;
+
+  @media only screen and (max-width: 440px) {
+    width: 279px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+  }
 }
 
 .wrapper {
   margin: 24px;
+
+  @media only screen and (max-width: 440px) {
+    margin: 4px 24px;
+  }
 }
 
 .tag {
@@ -39,24 +58,42 @@ body {
   display: inline-block;
   padding: 6px 14px;
   border-radius: 4px;
+
+  @media only screen and (max-width: 440px) {
+    font-size: 12px;
+  }
 }
 
 .date {
   margin-top: 14px;
   font-size: 14px;
+
+  @media only screen and (max-width: 440px) {
+    font-size: 12px;
+  }
 }
 
 .title {
   margin-top: 16px;
   font-size: 23px;
   font-weight: 800;
+
+  @media only screen and (max-width: 440px) {
+    font-size: 19px;
+    font-weight: 700;
+  }
 }
 
 .description {
   margin-top: 16px;
+  font-size: 16px;
   font-weight: 380;
   color: hsl(0, 0%, 50%);
   line-height: 1.5;
+
+  @media only screen and (max-width: 440px) {
+    font-size: 14px;
+  }
 }
 
 .row {
@@ -67,7 +104,6 @@ body {
 .avatar {
   margin-top: 24px;
   width: 32px;
-
 }
 
 .name {
