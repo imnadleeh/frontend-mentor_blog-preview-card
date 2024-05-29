@@ -18,7 +18,8 @@ body {
   margin: 220px auto;
   border-radius: 20px;
   background-color: hsl(0, 0%, 100%);
-  box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.90);
+  box-shadow: 8px 8px 0px 0px hsl(0, 0%, 7%);
+  transition: 0.3s;
 
   @media only screen and (max-width: 440px) {
     width: 327px;
@@ -77,12 +78,22 @@ body {
   margin-top: 16px;
   font-size: 23px;
   font-weight: 800;
+  transition: 0.3s;
 
   @media only screen and (max-width: 440px) {
     font-size: 19px;
     font-weight: 700;
   }
 }
+
+.title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+/* .title:hover ~ .card {
+  box-shadow: 16px 16px 0px 0px hsl(0, 0%, 7%);
+} */
 
 .description {
   margin-top: 16px;
